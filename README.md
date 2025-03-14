@@ -33,3 +33,5 @@ A **DietTrackerAPI** é uma API desenvolvida para controlar e monitorar a dieta 
 ```bash
 git clone https://github.com/seu-usuario/DietTrackerAPI.git
 cd DietTrackerAPI
+pip install -r requirements.txt
+```
