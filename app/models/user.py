@@ -12,4 +12,5 @@ class User(db.Model, UserMixin):
   id = db.Column(db.Integer, primary_key=True)
   username = db.Column(db.String(80), nullable=False, unique=True)
   password = db.Column(db.String(255), nullable=False)
+  average_diets = db.Column(db.Integer(3), nullable=True, default=0)
   role = db.Column(db.String(80), nullable=False, default='user')
